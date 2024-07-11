@@ -342,3 +342,16 @@ input {
 .social-container a:hover {
   border: 1px solid #4bb6b7;
 }
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+}
